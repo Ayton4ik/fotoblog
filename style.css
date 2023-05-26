@@ -10,6 +10,28 @@ ul{
     list-style: none;
 }
 
+/* header*/
+
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    margin-bottom: 92px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item:not(:first-child){
+    margin-left: 100px;
+}
+
 .nav-link:hover,
 .nav-link:focus{
     color: #03A9F4;
@@ -21,6 +43,12 @@ ul{
     line-height: 19px;
 
     color: #7D7D7D;
+}
+
+/* main  */
+
+.list{
+   margin-bottom: 62px;
 }
 
 .text{
@@ -44,3 +72,15 @@ ul{
 
 }
 
+
+
+
+
+.button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #626262;
+    background-color: white;
+    padding: 20px 48px;
+}
