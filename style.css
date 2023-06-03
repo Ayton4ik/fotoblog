@@ -8,18 +8,22 @@ body{
 
 ul{
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 /* header*/
 
 .container{
-    width: 900px;
+    width: 920px;
     margin-left: auto;
     margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .header{
-    margin-bottom: 92px;
+    padding: 71px 0px 92px 0px ;
 }
 
 .nav-list{
@@ -48,7 +52,22 @@ ul{
 /* main  */
 
 .list{
-   margin-bottom: 62px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 62px;
+}
+
+.item{
+    width: 420px;
+}
+
+.item:nth-child(-n+4){
+    margin-bottom: 130px;
+}
+
+img{
+    margin-bottom: 62px;
 }
 
 .text{
@@ -56,6 +75,7 @@ ul{
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
+    margin-bottom: 32px;
 
     color: #B4AD9E;
 }
@@ -63,14 +83,14 @@ ul{
 .main-h2{
     font-size: 30px;
     line-height: 40px;
-
+    margin-bottom: 42px;
 }
 
 .main-p{
     font-size: 14px;
     line-height: 19px;
-
 }
+
 
 
 
